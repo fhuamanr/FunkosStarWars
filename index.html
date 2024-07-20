@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <div class="bg-light border-right" id="sidebar-wrapper">            
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action bg-light" onclick="loadContent('home.html')">Inicio</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light" onclick="loadContent('productos.html')">Galería</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light" onclick="loadContent('Clientes.html')">Lista Clientes</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light" onclick="loadContent('contacto.html')">Contacto</a>
+            </div>
+        </div>
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container">
+                    <img src="img/logo_starwars.png" alt="Logo" class="logo">
+                    <span class="navbar-text">Funkos StarWars-PE</span>
+                </div>
+            </nav>
+            <div class="container-fluid" id="content">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

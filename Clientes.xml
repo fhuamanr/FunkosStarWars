@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Clientes.xsl"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Clientes.xsd" generated="2024-07-19T19:05:37">
+<Clientes>
+<Empresa>Raspberry Pi Foundation</Empresa>
+<País>United Kingdom</País>
+<Industria>Education Management</Industria>
+<Empleados>210</Empleados>
+<Ingresos>46</Ingresos>
+</Clientes>
+<Clientes/>
+<Clientes/>
+<Clientes>
+<Empresa>Client Server</Empresa>
+<País>United Kingdom</País>
+<Industria>Staffing &amp; Recruiting</Industria>
+<Empleados>179</Empleados>
+<Ingresos>31</Ingresos>
+</Clientes>
+<Clientes/>
+<Clientes/>
+<Clientes/>
+<Clientes>
+<Empresa>TU Career Center</Empresa>
+<País>Austria</País>
+<Industria>Management Consulting</Industria>
+<Empleados>9</Empleados>
+<Ingresos>12</Ingresos>
+</Clientes>
+<Clientes/>
+<Clientes/>
+<Clientes/>
+<Clientes>
+<Empresa>Samsara</Empresa>
+<País>United States</País>
+<Industria>Computer Software</Industria>
+<Empleados>210</Empleados>
+<Ingresos>428</Ingresos>
+</Clientes>
+<Clientes/>
+<Clientes/>
+<Clientes/>
+<Clientes>
+<Empresa>ENVEA</Empresa>
+<País>Slovakia</País>
+<Industria>Architecture &amp; Planning</Industria>
+<Empleados>17</Empleados>
+<Ingresos>17</Ingresos>
+</Clientes>
+<Clientes/>
+<Clientes/>
+<Clientes/>
+<Clientes>
+<Empresa>American Gaming Systems</Empresa>
+<País>United States</País>
+<Industria>Gambling &amp; Casinos</Industria>
+<Empleados>610</Empleados>
+<Ingresos>298</Ingresos>
+</Clientes>
+<Clientes/>
+<Clientes/>
+<Clientes/>
+<Clientes>
+<Empresa>Johnson Electric</Empresa>
+<País>Hong Kong</País>
+<Industria>Electrical/Electronic Manufacturing</Industria>
+<Empleados>500</Empleados>
+<Ingresos>3.2</Ingresos>
+</Clientes>
+<Clientes/>
+<Clientes/>
+<Clientes/>
+</dataroot>

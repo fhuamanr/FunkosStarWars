@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/estilo.css">
+    <script src="js/script2.js" async></script>
+</head>
+<body> 
+    <div>
+        <h1 class="mt-4">Formulario de Contacto</h1>
+        <form id="contactForm" novalidate>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" pattern="[A-Za-z\s]{4,}" required>
+                <div class="invalid-feedback">Por favor ingresa tu nombre, minimo 4 digitos</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+                <div class="invalid-feedback">Por favor ingresa un email válido.</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Celular</label>
+                <input type="text" class="form-control" id="phone" pattern="^9\d{8}$" required>
+                <div class="invalid-feedback">Por favor ingresa un celular válido.</div>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" maxlength="500" required></textarea>
+                <div class="invalid-feedback">Por favor ingresa tu mensaje (máximo 500 caracteres).</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
